@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Improving.AspNet", "Improvi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Improving.AspNet.Test", "Improving.AspNet.Test\Improving.AspNet.Test.csproj", "{C582F18E-386E-4DCE-BBB8-7EA46D44E1BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{B05B2151-52B9-4BDB-888C-F85BBD76EF65}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
