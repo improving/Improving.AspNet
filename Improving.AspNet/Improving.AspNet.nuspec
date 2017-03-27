@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Improving.AspNet</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://bitbucket.org/ImprovingEnt/Improving.common</projectUrl>
+    <iconUrl>https://www.Improving.com/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Improving Improving six Six Web web</tags>
+    <dependencies>
+      <group>
+        <dependency id="Improving.MediatR"/>
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/release/Improving.AspNet.pdb" target="lib" />
+    <file src="bin/release/Improving.AspNet.CustomInstrumentation.xml" target="content\NewRelicConfigsFromNugetPkgs" />
+  </files>
+</package>

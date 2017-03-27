@@ -1,0 +1,13 @@
+﻿.swagger-section #header {
+    background-image: -webkit-linear-gradient(#04519b, #044687 60%, #033769);
+    background-image: -o-linear-gradient(#04519b, #044687 60%, #033769);
+    background-image: linear-gradient(#04519b, #044687 60%, #033769);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff04519b', endColorstr='#ff033769', GradientType=0);
+    filter: none;
+    border-bottom: 1px solid #022241;
+}
+
+.swagger-section #explore, .swagger-section #auth_container .authorize__btn {
+    background-color: #022f5a;
+}
