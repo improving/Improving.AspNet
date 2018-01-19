@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Improving.AspNet", "Improving.AspNet\Improving.AspNet.csproj", "{97B2ED41-D3CF-4C89-A185-EF0032CAC1B7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Improving.AspNet.Test", "Improving.AspNet.Test\Improving.AspNet.Test.csproj", "{C582F18E-386E-4DCE-BBB8-7EA46D44E1BD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{B05B2151-52B9-4BDB-888C-F85BBD76EF65}"
 	ProjectSection(SolutionItems) = preProject
 		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Improving.AspNet", "Source\Improving.AspNet\Improving.AspNet.csproj", "{97B2ED41-D3CF-4C89-A185-EF0032CAC1B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Improving.AspNet.Test", "Test\Improving.AspNet.Test\Improving.AspNet.Test.csproj", "{C582F18E-386E-4DCE-BBB8-7EA46D44E1BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
