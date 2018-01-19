@@ -14,7 +14,7 @@
     <tags>improving aspnet mvc webapi mediatr</tags>
     <dependencies>
       <group>
-        <dependency id="Improving.MediatR"/>
+        <dependency id="Improving.MediatR" version="3.0"/>
       </group>
     </dependencies>
   </metadata>
