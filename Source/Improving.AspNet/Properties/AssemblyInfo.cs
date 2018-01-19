@@ -1,10 +1,6 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-#if !DEBUG
-[assembly: NRConfig.Instrument]
-#endif
-
 [assembly: AssemblyTitle("Improving.AspNet")]
 [assembly: AssemblyDescription("Improving web api, mvc, and mediatr integration")]
 [assembly: AssemblyConfiguration("")]
